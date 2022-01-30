@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-auto-rows: minmax(1fr, auto);
+  border: 3px solid black;
+}
+
+.square {
+  background-color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.clearButton,
+.resizeButton {
+  font-size: 32px;
+  margin: 20px;
+  padding: 10px;
+}
